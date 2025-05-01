@@ -4,6 +4,7 @@ import { Home } from "./pages/home"; // Correct import based on named export
 import { TreeCount } from "./pages/TreeCount";
 import { TreeSpecies } from "./pages/TreeSpecies";
 import { GreenCover } from "./pages/GreenCover";
+
 function App() {
   return (
     <Router>
