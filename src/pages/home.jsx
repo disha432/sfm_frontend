@@ -9,7 +9,6 @@ export function Home() {
   return (
     <>
       <Header />
-      <h1>This is home page..</h1>
       <HeroSection />
       <About />
       <Features />

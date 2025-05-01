@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-start px-8 py-6 bg-green-800 space-y-6 md:space-y-0 md:space-x-12">
         {/* Logo */}
         <div>
-          <img src="/assets/sfm_logo.jpg" alt="Logo" className="h-8 mb-2" />
+          <img src="/assets/leaf.jpg" alt="Logo" className="h-8 mb-2" />
         </div>
 
         {/* Quick Links */}

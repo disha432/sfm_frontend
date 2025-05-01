@@ -15,10 +15,12 @@ function HeroSection() {
         <p className="text-lg md:text-2xl text-start max-w-3xl pb-7">
           Preserving nature through technology. 
         </p>
-
-        <button type= "button" class="bg-white hover:bg-slate-400 text-gray-800 font-semibold py-4 px-5 border border-gray-400 rounded shadow ">
-          Get Started
-        </button>
+        <a href="#featured">
+          <button type= "button" class="bg-white hover:bg-slate-400 text-gray-800 font-semibold py-4 px-5 border border-gray-400 rounded shadow ">
+            Get Started
+          </button>
+        </a>     
+        
       </div>
     </div>
   );
