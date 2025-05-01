@@ -1,22 +1,19 @@
-
 import React from "react";
-import HeroSection from "./components/HeroSection";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/home"; // Correct import based on named export
+import { TreeCount } from "./pages/TreeCount";
+import { TreeSpecies } from "./pages/TreeSpecies";
+import { GreenCover } from "./pages/GreenCover";
 function App() {
   return (
-    <>
-      <HeroSection />
-      <Header />
-      <Hero />
-      <About />
-      <Features />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />{" "}
+        <Route path="/tree-count" element={<TreeCount />} />{" "}
+        <Route path="/tree-species" element={<TreeSpecies />} />{" "}
+        <Route path="/green-cover" element={<GreenCover />} />{" "}
+      </Routes>
+    </Router>
   );
 }
 
